@@ -1,0 +1,75 @@
+<!DOCTYPE.html>
+<html>
+    <head>
+        <title>Objects and its Internal representation</title>
+    </head>
+    <body>
+        <h1>Objects and its Internal Representation</h1>
+        <h3>Objects in Javascript</h3>
+        <p>
+           A javascript object is collection of named values having state and behaviour
+           (properties and method).For example: Person, car, pen, bike, personalcomputer, 
+           washing machine etc.., . Take the case of cars .All cars have the same properties
+           but the property values differ from car to car.
+        </p>
+        <p> 
+            <h3>Creating objects in Javascript:</h3>
+            <ol>
+                <li>
+                    By object literal
+                </li><br>
+                <li>
+                    By creating instance of object directly (using new keyword)
+                </li>
+            </ol>
+        </p>
+        <p>
+            <h3>By Object literal:</h3>
+            The syntax of creating object using object literal is given below:<br>
+            <strong><q>object={property1:value1,property2:value2.....propertyN:valueN}</q></strong><br>
+            <br>
+            property and value is separated by colon(:).<br>
+            <br>
+            <b>Example:</b><br><br>
+            <strong> var person={<br>
+                     fname:"XXX",<br>
+                     Iname:"yyy",<br>
+                     age:25<br>
+                     };
+            </strong><br>
+        </p>
+        <p>
+            <h3>By creating instance of object directly (using new keyword):</h3>
+            The syntax of creating object directly is given below:<br>
+            <strong>var objectname=new object();</strong>
+            <br>
+            <br>
+            Here,<strong>new keyword</strong> is used to create object.<br>
+
+            <b>Example:</b><br>
+            <strong>
+                var emp=new Object();<br>
+                emp.id=101;<br>
+                emp.name="xxx";<br>
+                emp.salary=50000;
+            </strong><br>
+            <h3>Accessing Javascript objects:</h3>
+            The syntax for accessing the property of an objects is:
+            <br>
+            <br>
+            <i>objectName.property</i> (.dot method)<br>
+            or<br>
+            <i>objectName["Property"]</i> ([] box method)<br>
+            Accessing 'fname'from example 1 using dot operator,
+            <br>
+            <br>
+            <strong>person.fname</strong>
+            <br>
+            <br>
+            Accessing 'name' form example 2 using [] method,
+            <br>
+            <br>
+            <strong>emp["name"]</strong>
+        </p>
+    </body>
+</html>
